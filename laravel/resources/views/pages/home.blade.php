@@ -23,6 +23,10 @@
                     </div>
                 </div>
             @endforeach
+
+            <div class="more-btn">
+                <a href="#">Load more</a>
+            </div>
         </div>
     </main>
 @endsection

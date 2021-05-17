@@ -24,6 +24,8 @@
 
     @yield('content')
 
+    @include('components.main-nav')
+
 
 </body>
 </html>
