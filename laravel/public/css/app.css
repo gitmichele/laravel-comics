@@ -108,8 +108,38 @@ header .bottom-header .container .search input {
   color: #fff;
 }
 
+.cover-show {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.cover-show .card {
+  width: 180px;
+}
+
+.cover-show .card figure {
+  height: 180px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cover-show .card .name {
+  color: #fff;
+  margin-top: 15px;
+}
+
+.cover-show .card:last-child {
+  margin-right: 0;
+}
+
 .jumbotron {
   height: 400px;
   overflow: hidden;
+}
+
+main {
+  background-color: #1c1c1c;
 }
 

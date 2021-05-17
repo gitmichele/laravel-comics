@@ -101,3 +101,28 @@ header{
     font-weight: 600;
     color: $secondary-color;
 }
+
+.cover-show{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 60px;
+
+    .card{
+        width: 180px;
+
+        figure{
+            height: 180px;
+            width: 100%;
+            overflow: hidden;
+        }
+        .name{
+            color: $secondary-color;
+            margin-top: 15px;
+        }
+    }
+
+    .card:last-child{
+        margin-right: 0;
+    }
+}

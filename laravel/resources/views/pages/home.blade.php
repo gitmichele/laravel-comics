@@ -10,5 +10,20 @@
             Current-series
         </div>
     </div>
+
+    <main>
+        <div class="cover-show container">
+            @foreach ($data as $card)
+                <div class="card">
+                    <figure>
+                        <img src="{{ $card['thumb'] }}" alt="">
+                    </figure>
+                    <div class="name">
+                        <h3> {{ $card['title'] }}</h3>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </main>
 @endsection
 
