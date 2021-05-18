@@ -19,11 +19,11 @@
         </div>
     </div>
 
-    <div class="bottom-header">
+    <div class="header-nav">
         <nav class="container">
-            <div class="logo">
+            <a class="logo" href="{{ route('home') }}">
                 <img src="{{ asset('/storage/img/dc-logo.png') }}" alt="">
-            </div>
+            </a>
     
             <ul>
                 <li>

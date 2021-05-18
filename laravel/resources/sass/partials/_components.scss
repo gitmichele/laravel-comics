@@ -41,52 +41,51 @@ header{
             }
         }
     }
+}
 
-    .bottom-header{
-        background-color: $secondary-color;
+.header-nav{
+    background-color: $secondary-color;
 
-        .container{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 100px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
 
-            .logo{
-                height: 80%;
+        .logo{
+            height: 80%;
 
-                img{
-                    height: 100%;
-                }
+            img{
+                height: 100%;
             }
+        }
 
-            ul{
+        ul{
 
-                li{
-                    display: inline-block;
-                    margin: 0 10px;
+            li{
+                display: inline-block;
+                margin: 0 10px;
 
-                    a{
-                        text-transform: uppercase;
-                        color: $navbar-color;
-                        font-weight: 500;
-                        font-size: $navbar-font;
-                    }
-                }
-            }
-
-            .search{
-
-                input{
-                    width: 200px;
-                    border: none;
-                    border-bottom: 1px solid $primary-color;
-                    text-align: right;
-                    line-height: 30px;
+                a{
+                    text-transform: uppercase;
+                    color: $navbar-color;
+                    font-weight: 500;
+                    font-size: $navbar-font;
                 }
             }
         }
-    }
 
+        .search{
+
+            input{
+                width: 200px;
+                border: none;
+                border-bottom: 1px solid $primary-color;
+                text-align: right;
+                line-height: 30px;
+            }
+        }
+    }
 }
 
 

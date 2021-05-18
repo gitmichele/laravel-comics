@@ -12,21 +12,25 @@
     </div>
 
     <main>
-        <div class="cover-show container">
-            @foreach ($data as $card)
-                <div class="card">
-                    <figure>
-                        <img src="{{ $card['thumb'] }}" alt="">
-                    </figure>
-                    <div class="name">
-                        <h3> {{ $card['title'] }}</h3>
-                    </div>
+        <div class="home-main-container">
+            <div class="cover-show container">
+                @foreach ($data as $card)
+                    <a class="card" href="{{ route('comic', $loop -> index) }}">
+                        <figure>
+                            <img src="{{ $card['thumb'] }}" alt="">
+                        </figure>
+                        <div class="name">
+                            <h3> {{ $card['title'] }}</h3>
+                        </div>
+                    </a>
+                @endforeach
+    
+                <div class="more-btn">
+                    <a href="#">Load more</a>
                 </div>
-            @endforeach
-
-            <div class="more-btn">
-                <a href="#">Load more</a>
             </div>
+    
+            @include('components.main-nav')
         </div>
     </main>
 @endsection
