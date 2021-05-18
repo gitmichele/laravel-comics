@@ -66,6 +66,46 @@ a {
   padding-right: 15px;
 }
 
+.comic-bottom-description {
+  background-color: lightgray;
+}
+
+.comic-bottom-description .container {
+  display: flex;
+}
+
+.comic-bottom-description .container .talent {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.comic-bottom-description .container .col-title {
+  padding: 30px 0;
+}
+
+.comic-bottom-description .container .specs {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.comic-bottom-description .container .col-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comic-bottom-description .container .col-row > * {
+  padding: 30px 0;
+  border-top: 1px solid gray;
+}
+
+.comic-bottom-description .container .col-row h5 {
+  width: 40%;
+}
+
+.comic-bottom-description .container .col-row span {
+  width: 60%;
+}
+
 header .top-header {
   background-color: #0282f9;
   height: 25px;
